@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AFCC3A2DCA14B9F88E9FD23 /* Pods_AzCustomComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FF7986F93B5EF2F3DECF94 /* Pods_AzCustomComponents.framework */; };
 		DC737EF72B91B58F00C9D0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC737EF62B91B58F00C9D0C6 /* AppDelegate.swift */; };
 		DC737EF92B91B58F00C9D0C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC737EF82B91B58F00C9D0C6 /* SceneDelegate.swift */; };
 		DC737EFB2B91B58F00C9D0C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC737EFA2B91B58F00C9D0C6 /* ViewController.swift */; };
 		DC737EFE2B91B58F00C9D0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC737EFC2B91B58F00C9D0C6 /* Main.storyboard */; };
 		DC737F002B91B59000C9D0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC737EFF2B91B59000C9D0C6 /* Assets.xcassets */; };
 		DC737F032B91B59000C9D0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC737F012B91B59000C9D0C6 /* LaunchScreen.storyboard */; };
+		DC737F0D2B91B63700C9D0C6 /* AzButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC737F0C2B91B63700C9D0C6 /* AzButton.swift */; };
+		DC737F0F2B91B64900C9D0C6 /* AzTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC737F0E2B91B64900C9D0C6 /* AzTextField.swift */; };
+		DC737F112B91B68800C9D0C6 /* AzCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC737F102B91B68800C9D0C6 /* AzCustomView.swift */; };
+		DC737F132B91C43C00C9D0C6 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC737F122B91C43C00C9D0C6 /* CustomTextView.swift */; };
+		DCCA2D4D2B91D9A300F8F831 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = DCCA2D4C2B91D9A300F8F831 /* NVActivityIndicatorView */; };
+		DCCA2D4F2B91D9A300F8F831 /* NVActivityIndicatorViewExtended in Frameworks */ = {isa = PBXBuildFile; productRef = DCCA2D4E2B91D9A300F8F831 /* NVActivityIndicatorViewExtended */; };
+		DCCA2D522B91DA3300F8F831 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DCCA2D512B91DA3300F8F831 /* SnapKit */; };
+		DCCA2D542B91DA3300F8F831 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = DCCA2D532B91DA3300F8F831 /* SnapKit-Dynamic */; };
+		DCCA2D562B91DAF700F8F831 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA2D552B91DAF700F8F831 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D6FD6278D40DB5D28436E64 /* Pods-AzCustomComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzCustomComponents.debug.xcconfig"; path = "Target Support Files/Pods-AzCustomComponents/Pods-AzCustomComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		45FF7986F93B5EF2F3DECF94 /* Pods_AzCustomComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzCustomComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC737EF32B91B58F00C9D0C6 /* AzCustomComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzCustomComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC737EF62B91B58F00C9D0C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC737EF82B91B58F00C9D0C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		DC737EFF2B91B59000C9D0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC737F022B91B59000C9D0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC737F042B91B59000C9D0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC737F0C2B91B63700C9D0C6 /* AzButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzButton.swift; sourceTree = "<group>"; };
+		DC737F0E2B91B64900C9D0C6 /* AzTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzTextField.swift; sourceTree = "<group>"; };
+		DC737F102B91B68800C9D0C6 /* AzCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzCustomView.swift; sourceTree = "<group>"; };
+		DC737F122B91C43C00C9D0C6 /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		DCCA2D552B91DAF700F8F831 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E3DF32724E204071ECE954FA /* Pods-AzCustomComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzCustomComponents.release.xcconfig"; path = "Target Support Files/Pods-AzCustomComponents/Pods-AzCustomComponents.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCA2D542B91DA3300F8F831 /* SnapKit-Dynamic in Frameworks */,
+				DCCA2D4F2B91D9A300F8F831 /* NVActivityIndicatorViewExtended in Frameworks */,
+				DCCA2D522B91DA3300F8F831 /* SnapKit in Frameworks */,
+				DCCA2D4D2B91D9A300F8F831 /* NVActivityIndicatorView in Frameworks */,
+				8AFCC3A2DCA14B9F88E9FD23 /* Pods_AzCustomComponents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F932C439E210CD2DF7256F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D6FD6278D40DB5D28436E64 /* Pods-AzCustomComponents.debug.xcconfig */,
+				E3DF32724E204071ECE954FA /* Pods-AzCustomComponents.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		981CAB7F06AD59F4ECD2D13A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45FF7986F93B5EF2F3DECF94 /* Pods_AzCustomComponents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC737EEA2B91B58F00C9D0C6 = {
 			isa = PBXGroup;
 			children = (
 				DC737EF52B91B58F00C9D0C6 /* AzCustomComponents */,
 				DC737EF42B91B58F00C9D0C6 /* Products */,
+				7F932C439E210CD2DF7256F3 /* Pods */,
+				981CAB7F06AD59F4ECD2D13A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +98,7 @@
 		DC737EF52B91B58F00C9D0C6 /* AzCustomComponents */ = {
 			isa = PBXGroup;
 			children = (
+				DC737F0A2B91B61800C9D0C6 /* uiutil */,
 				DC737EF62B91B58F00C9D0C6 /* AppDelegate.swift */,
 				DC737EF82B91B58F00C9D0C6 /* SceneDelegate.swift */,
 				DC737EFA2B91B58F00C9D0C6 /* ViewController.swift */,
@@ -63,8 +106,28 @@
 				DC737EFF2B91B59000C9D0C6 /* Assets.xcassets */,
 				DC737F012B91B59000C9D0C6 /* LaunchScreen.storyboard */,
 				DC737F042B91B59000C9D0C6 /* Info.plist */,
+				DCCA2D552B91DAF700F8F831 /* BaseViewController.swift */,
 			);
 			path = AzCustomComponents;
+			sourceTree = "<group>";
+		};
+		DC737F0A2B91B61800C9D0C6 /* uiutil */ = {
+			isa = PBXGroup;
+			children = (
+				DC737F0B2B91B62300C9D0C6 /* components */,
+			);
+			path = uiutil;
+			sourceTree = "<group>";
+		};
+		DC737F0B2B91B62300C9D0C6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				DC737F0C2B91B63700C9D0C6 /* AzButton.swift */,
+				DC737F0E2B91B64900C9D0C6 /* AzTextField.swift */,
+				DC737F102B91B68800C9D0C6 /* AzCustomView.swift */,
+				DC737F122B91C43C00C9D0C6 /* CustomTextView.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC737F072B91B59000C9D0C6 /* Build configuration list for PBXNativeTarget "AzCustomComponents" */;
 			buildPhases = (
+				C8FC5FE0F27CB2D3CB82C976 /* [CP] Check Pods Manifest.lock */,
 				DC737EEF2B91B58F00C9D0C6 /* Sources */,
 				DC737EF02B91B58F00C9D0C6 /* Frameworks */,
 				DC737EF12B91B58F00C9D0C6 /* Resources */,
@@ -83,6 +147,12 @@
 			dependencies = (
 			);
 			name = AzCustomComponents;
+			packageProductDependencies = (
+				DCCA2D4C2B91D9A300F8F831 /* NVActivityIndicatorView */,
+				DCCA2D4E2B91D9A300F8F831 /* NVActivityIndicatorViewExtended */,
+				DCCA2D512B91DA3300F8F831 /* SnapKit */,
+				DCCA2D532B91DA3300F8F831 /* SnapKit-Dynamic */,
+			);
 			productName = AzCustomComponents;
 			productReference = DC737EF32B91B58F00C9D0C6 /* AzCustomComponents.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,10 @@
 				Base,
 			);
 			mainGroup = DC737EEA2B91B58F00C9D0C6;
+			packageReferences = (
+				DCCA2D4B2B91D9A300F8F831 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				DCCA2D502B91DA3300F8F831 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = DC737EF42B91B58F00C9D0C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,13 +207,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C8FC5FE0F27CB2D3CB82C976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzCustomComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC737EEF2B91B58F00C9D0C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC737F0F2B91B64900C9D0C6 /* AzTextField.swift in Sources */,
+				DC737F0D2B91B63700C9D0C6 /* AzButton.swift in Sources */,
 				DC737EFB2B91B58F00C9D0C6 /* ViewController.swift in Sources */,
 				DC737EF72B91B58F00C9D0C6 /* AppDelegate.swift in Sources */,
+				DC737F132B91C43C00C9D0C6 /* CustomTextView.swift in Sources */,
+				DCCA2D562B91DAF700F8F831 /* BaseViewController.swift in Sources */,
+				DC737F112B91B68800C9D0C6 /* AzCustomView.swift in Sources */,
 				DC737EF92B91B58F00C9D0C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +391,7 @@
 		};
 		DC737F082B91B59000C9D0C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6FD6278D40DB5D28436E64 /* Pods-AzCustomComponents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,6 +405,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +421,7 @@
 		};
 		DC737F092B91B59000C9D0C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DF32724E204071ECE954FA /* Pods-AzCustomComponents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +435,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +471,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCCA2D4B2B91D9A300F8F831 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		DCCA2D502B91DA3300F8F831 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCCA2D4C2B91D9A300F8F831 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCA2D4B2B91D9A300F8F831 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		DCCA2D4E2B91D9A300F8F831 /* NVActivityIndicatorViewExtended */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCA2D4B2B91D9A300F8F831 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorViewExtended;
+		};
+		DCCA2D512B91DA3300F8F831 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCA2D502B91DA3300F8F831 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		DCCA2D532B91DA3300F8F831 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCCA2D502B91DA3300F8F831 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC737EEB2B91B58F00C9D0C6 /* Project object */;
 }
